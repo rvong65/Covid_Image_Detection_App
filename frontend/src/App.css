@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+label{
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgb(216, 130, 130), rgb(139, 133, 214));
+  font-weight: bold;
+ 
+}
