@@ -1,6 +1,13 @@
 # 🦠 Covid_Image_Detection_App
 This is a deep-learning based web application built using Django, React, and PyTorch. The application works by uploading an image of an x-ray of the chest area and uses a basic convolutional neural network to classify whether there is a presence of COVID or not. The data used for this project is from https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset
 
+## Demonstration
+
+
+https://user-images.githubusercontent.com/87782709/198840853-478e10e2-4d09-4607-987e-f63410a86214.mp4
+
+
+## Main Interface
 ![COVID_APP](https://user-images.githubusercontent.com/87782709/197602171-600182fe-eb5b-483e-86bf-a47f21a21772.jpg)
 
 ## Setup
