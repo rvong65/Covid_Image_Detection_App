@@ -22,6 +22,6 @@ class ImageUploadView(APIView):
             time.sleep(2)
             return Response(response)
         except:
-            return Response(f"Failed")
+            return Response("Failed")
 
         
