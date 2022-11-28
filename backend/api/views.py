@@ -5,7 +5,8 @@ from .model import *
 from PIL import Image
 import io
 import time
-# Create your views here.
+
+# Send model's response
 class ImageUploadView(APIView):
     parser_classes = (MultiPartParser, FormParser)
 
