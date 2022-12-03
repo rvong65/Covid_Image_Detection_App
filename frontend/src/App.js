@@ -22,6 +22,7 @@ class App extends Component{
     this.handleChange = this.handleChange.bind(this);
   }
   
+  // Send inputs to model
   handleChange = async (event) => {
     await this.setState({file:event, image_uploading: true, started: true, image:false, error: false});
     let reader = new FileReader()
